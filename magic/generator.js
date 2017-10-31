@@ -10,7 +10,7 @@ textLayer_ctx = textLayer.getContext("2d");
 textLayer_ctx.font = "300 350% Zilla Slab";
 //lets create an image element;
 var backgroundImage = new Image(background.width, background.height);
-backgroundImage.src = 'images/banner_plain.svg';
+backgroundImage.src = 'image/banner_plain.svg';
 //function that generates the banner preview from user input text;
 function previewBanner() {
   background_ctx.clearRect(0, 0, background.width, background.height); //      Clearing both layers
