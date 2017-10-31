@@ -38,5 +38,5 @@ function downloadImage(link, canvasID, fileName) {
 var downloadButton = document.getElementById("download");
 downloadButton.addEventListener("click", function(){
   previewBanner(); //downloading gets the exact current state by this;
-  downloadImage(this, background, "TestdayBanner.png");
+  downloadImage(this, background, "TestdayResult.png");
 });
