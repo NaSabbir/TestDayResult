@@ -1,13 +1,13 @@
 
 //lets set the maximum length for the headline.
-document.getElementById("banner_heading").setAttribute("maxlength", "32");
+document.getElementById("banner_heading").setAttribute("maxlength", "35");
 //now taking care of the canvases. firstly the background layer;
 var background = document.getElementById("banner_background");
 background_ctx = background.getContext("2d");
 //now the text layer;
 var textLayer = document.getElementById("banner");
 textLayer_ctx = textLayer.getContext("2d");
-textLayer_ctx.font = "300 350% Open Sans";
+textLayer_ctx.font = "Zilla Slab";
 //lets create an image element;
 var backgroundImage = new Image(background.width, background.height);
 backgroundImage.src = 'images/banner_plain.png';
