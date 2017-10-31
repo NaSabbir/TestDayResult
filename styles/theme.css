@@ -2,7 +2,7 @@
   Importing fonts
 */ 
 
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+ @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,500');
 
 * {
   margin: 0;
