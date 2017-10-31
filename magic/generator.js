@@ -7,7 +7,7 @@ background_ctx = background.getContext("2d");
 //now the text layer;
 var textLayer = document.getElementById("banner");
 textLayer_ctx = textLayer.getContext("2d");
-textLayer_ctx.font = "Zilla Slab";
+textLayer_ctx.font = "300 350% Zilla Slab";
 //lets create an image element;
 var backgroundImage = new Image(background.width, background.height);
 backgroundImage.src = 'images/banner_plain.png';
